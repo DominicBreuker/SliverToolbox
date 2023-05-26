@@ -1,0 +1,22 @@
+{
+    "name": "SliverToolbox",
+    "command_name": "st",
+    "version": "0.0.1",
+    "extension_author": "dominicbreuker",
+    "original_author": "dominicbreuker",
+    "repo_url": "https://github.com/dominicbreuker/SliverSamples/SliverToolbox",
+    "help": "A collection of small tools that might be handy.",
+    "entrypoint": "Execute",
+    "files": [
+        {
+            "os": "windows",
+            "arch": "386",
+            "path": "SliverToolbox32.dll"
+        },
+        {
+            "os": "windows",
+            "arch": "amd64",
+            "path": "SliverToolbox64.dll"
+        }
+    ]
+}
